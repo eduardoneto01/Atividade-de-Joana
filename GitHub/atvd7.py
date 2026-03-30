@@ -1,3 +1,6 @@
-celsius = float (input("Digite a temperatura em Celsius: "))
-farenheit = (celsius * 9/5) + 32
-print("Temperatura em Fahrenheit:", farenheit)
+horas = float(input("Digite a quantidade de horas trabalhadas: "))
+valor_hora = float(input("Digite o valor da hora: "))
+
+salario = horas * valor_hora
+
+print("Salário total:", salario)
